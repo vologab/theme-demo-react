@@ -1,0 +1,9 @@
+.persons-list {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100%;
+  padding: 20px;
+  margin-top: 60px;
+}

@@ -1,0 +1,134 @@
+.auth-page {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background: url(../images/login-bg.jpg);
+  background-size: cover;
+  padding: 0 140px 0 40px;
+  background-color: #f8f8f8;
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 1000px;
+  background: #f5f5f5;
+  transform: skewX(-15deg);
+  right: -700px;
+}
+
+
+.auth-page .logo-wrapper {
+  top: 40px;
+  left: 40px;
+  position: absolute;
+}
+
+.auth-page .logo-wrapper .logo {
+  width: 35px;
+}
+
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 350px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  padding: 24px;
+  border-radius: 2px;
+  z-index: 1000;
+}
+
+.login-form-wrapper form {
+
+}
+
+.input-container button {
+  width: 100%;
+}
+
+.slogan-wrapper {
+  padding-right: 40px;
+}
+
+.slogan-wrapper .title {
+  margin-bottom: 10px;
+  font-size: 4rem;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 0;
+}
+
+.slogan-wrapper .slogan {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 0;
+}
+
+.learn-more-btn a{
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px 15px;
+}
+
+.google-btn {
+  padding: 0;
+  border: 0;
+}
+
+.google-btn button {
+  background-color: #E24825;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .bg-overlay {
+    display: none;
+  }
+
+  .auth-page {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .auth-page .logo-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+  }
+
+  .login-form-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .slogan-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .slogan-wrapper .slogan {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 0;
+    text-align: center;
+  }
+}
+

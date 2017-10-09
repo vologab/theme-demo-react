@@ -1,0 +1,78 @@
+.header-wrapper {
+  z-index: 1000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  align-items: center;
+  padding: 0 25px;
+  height: 60px;
+  border-color: #e7e7e7;
+  color: rgba(0,0,0,.87);
+}
+
+.header a, .header a:link, .header a:visited {
+  color: #2399e5;
+  text-decoration: none;
+  outline: none;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.profile-img-wrapper img, .profile-img-wrapper svg {
+  border-radius: 999px;
+  width: 40px;
+}
+
+.profile-img-wrapper:hover img, .profile-img-wrapper:hover svg {
+  border: 1px solid #e5e5e5;
+}
+
+.ui-overlaypanel {
+  top: 60px!important;
+  border: 1px solid #e7e7e7;
+  border-top: 1px solid #fff;
+  box-shadow: none;
+}
+
+.header .username {
+  margin-right: 5px;
+}
+
+.dropdown {
+  top: 64px!important;
+  left: auto!important;
+  right: 10px;
+  width: 200px;
+  z-index: 0;
+}
+
+.dropdown li {
+  padding: 0;
+  height: auto;
+}
+
+.dropdown span {
+  padding: 15px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  width: 100%;
+}
+
+.dropdown a:visited {
+  text-decoration: none;
+}
