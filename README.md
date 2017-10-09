@@ -22,6 +22,25 @@ Across users, tabs and even browsers
 npm install
 ```
 
+## Configuration
+```bash
+cp .env.example .env
+```
+Change corresponding variables:
+
+```
+# define node path for absolute imports
+NODE_PATH=src/ 
+
+# Parse configuration
+REACT_APP_APP_ID=devAppId  #Application ID
+REACT_APP_SERVER_URL=https://demo-parse-server.herokuapp.com/parse #Server URL
+REACT_APP_LIVE_QUERY_SERVER_URL=wss://demo-parse-server.herokuapp.com/parse #Live query URL
+
+# Google Client ID for authentication via Google, see https://developers.google.com/identity/sign-in/web/devconsole-project
+REACT_APP_GOOGLE_CLIENT_ID=
+```
+
 ## Build
 ```bash
 npm run build
